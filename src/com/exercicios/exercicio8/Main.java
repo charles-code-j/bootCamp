@@ -2,10 +2,10 @@ package com.exercicios.exercicio8;
 
 public class Main {
     public static void main(String[] args) {
-        Triangulo triangulo = new Triangulo(10D,20D);
-        Quadrado quadrado = new Quadrado(8D);
-        Circulo circulo = new Circulo(4D);
-        Retangulo retangulo = new Retangulo(3D,4D);
+        Figura triangulo = new Triangulo(10D,20D);
+        Figura quadrado = new Quadrado(8D);
+        Figura circulo = new Circulo(4D);
+        Figura retangulo = new Retangulo(3D,4D);
 
         FiguraGeometrica.calcularArea(quadrado);
         FiguraGeometrica.calcularArea(triangulo);
