@@ -11,6 +11,6 @@ public class Circulo implements Figura {
 
 
     public Double getArea() {
-        return (3.14 * (raio * raio));
+        return Math.PI * (raio * raio);
     }
 }
